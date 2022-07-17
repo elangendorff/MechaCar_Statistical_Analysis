@@ -1,1 +1,0 @@
-We know the specification is malformed because variance is a *squared* measure, and therefore its units would also be the square of the units of the data it aggregates. In the case of data measured in PSI—pounds per square inch—the units of the variance statistic would be in PSI² (or square pounds per quartic inch), not PSI.
