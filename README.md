@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG
 
-Using the `MechaCar_mpg.csv` dataset, we created a linear model for the dataset's columns[^linear_model], and stored the result as `mpg_lm`.
+Using the `MechaCar_mpg.csv` dataset, we created a linear model for the dataset's columns, and stored the result as `mpg_lm`.
 
 ### Results
 
