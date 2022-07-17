@@ -91,6 +91,8 @@ We first note that the specification is malformed[^bad_spec], and presume that w
 
 [^bad_spec]: We know this because variance is a *squared* measure, and therefore its units would also be the square of the units of the data it aggregates. In the case of data measured in PSI—pounds per square inch—the units of the variance statistic would be in PSI² (or square pounds per quartic inch), not PSI.
 
+<br>
+
 With a value of 62.3, the coils' overall PSI-variance is indeed less than 100 (as required by the specification). However, while Lot1's and Lot2's variances are well below the limit—at 0.98 and 7.47, respectively—Lot3's variance comes in at 170—well above the limit.
 
 Given how different Lot3 is from Lot1 and Lot2, AutosRUs might want to reexamine the manufacturing processes for Lot3 to determine whether those processes can be adjusted to improve their coils' consistency.
@@ -197,7 +199,7 @@ The above claim is modeled by the alternative hypothesis <code>H<sub>1</sub>: <i
 
 In order to conduct the test, we will need sample `hp` data, both from MechaCar and from its competition, subject to the following constraints:  
 1. The data must be numerical and continuous.  
-   \[`hp` is a continuous, numerical measure, so this is a given.\]
+   \[Horsepower (`hp`) is a continuous, numerical measure, so this is a given.\]
 2. Each sample's data must be randomly selected from its population.  
    \[Ideally, we would want a [*simple* random sample][simple random sample], but that's not always feasible.\]
 3. The data must be (approximately) normally distributed.  
