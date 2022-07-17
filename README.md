@@ -4,8 +4,6 @@
 
 Using the `MechaCar_mpg.csv` dataset, we created a linear model for the dataset's columns[^linear_model], and stored the result as `mpg_lm`.
 
-[^linear_model]: using `lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mcmpg)`
-
 ### Results
 
 `mpg_lm` showed the following output:
@@ -88,7 +86,7 @@ We first note that the specification is malformed[^bad_spec], and presume that w
 
 > The variance of the suspension coils' PSI values must not exceed 100 \[units left unstated\].
 
-[^bad_spec]: We know this.
+[^bad_spec]: We know this because variance is a *squared* measure, and therefore its units will also be the square of the units of the data it aggregates. In the case of data measured in PSI—pounds per square inch—the units of the variance statistic would be in PSI² (or square pounds per quartic inch), not PSI.
 
 With a value of 62.3, the coils' overall PSI-variance is indeed less than 100 (as required by the specification). However, while Lot1's and Lot2's variances are well below the limit—at 0.98 and 7.47, respectively—Lot3's variance comes in at 170—well above the limit.
 
