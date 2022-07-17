@@ -84,6 +84,7 @@ We are asked to determine whether the current manufacturing data meet the design
 > The variance of the suspension coils must not exceed 100 pounds per square inch.
 
 <br>
+
 We first note that [the specification is malformed][bad_spec], and presume that what is means to say is:  
 
 > The variance of the suspension coils' PSI values must not exceed 100 \[units left unstated\].
