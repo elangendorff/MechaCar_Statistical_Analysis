@@ -85,7 +85,7 @@ We are asked to determine whether the current manufacturing data meet the design
 
 <br>
 
-We first note that the specification is malformed[^bad_spec], and presume that what is means to say is:  
+We first note that the specification is malformed[^bad_spec], and presume that what it means to say is:  
 
 > The variance of the suspension coils' PSI values must not exceed 100 \[units left unstated\].
 
